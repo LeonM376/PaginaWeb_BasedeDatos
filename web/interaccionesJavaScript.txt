@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Rubén Hisraim León Martínez">
+		<link rel="stylesheet" href="css\estilos.css">
+    		<title>Uso de JavaScript</title>
+	</head>
+
+	<body>
+
+    	<div class="contenedor">
+        	<h1>Interacciones</h1>
+        
+        	<hr>
+
+        	<h2>Convertidor a Pesos</h2>
+        	<p>Ingresa cantidad en dólares:</p>
+        	<input type="number" id="dolares" >
+        	<button type="button" onclick="convertirPesos()">Convertir</button>
+        	<p id="resultadoConvertidor" style="font-weight:bold;"></p>
+
+        	<hr>
+   
+        	<h2>Calculadora</h2>
+        	<input type="number" id="num1" placeholder="Número 1" style="width: 100px;">
+        	<select id="operacion">
+           	<option value="+">+</option>
+            	<option value="-">-</option>
+            	<option value="*">x</option>
+            	<option value="/">/</option>
+        	</select>
+        	<input type="number" id="num2" placeholder="Número 2" style="width: 100px;">
+        	<button type="button" onclick="calcular()">Calcular</button>
+        	<p id="resultadoCalculadora" style="font-weight:bold;"></p>
+
+        	<hr>
+
+       
+        	<h2>Cuestionario corto</h2>
+        	<p>1. ¿Cuánto es la raíz de 169?</p>
+        	<input type="text" id="preg1" >
+        
+        	<p>2. ¿Cuántos años tengo?</p>
+        	<input type="text" id="preg2" >
+        
+        	<br>
+        	<button type="button" onclick="revisarCuestionario()">Calificar Cuestionario</button>
+
+    	</div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

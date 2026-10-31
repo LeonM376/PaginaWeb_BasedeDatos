@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+    		<meta charset="UTF-8">
+		<meta name="author" content="Rubén Hisraim León Martínez">
+    		<title>Mi biografía personal</title>
+		<link rel="stylesheet" href="C:\Users\Brouh\OneDrive\Desktop\web\css\estilos.css">
+
+	</head>
+
+	<body>
+
+    		<h1>Autobiografía de Rubén Hisraim León Martínez</h1>
+
+    			<img src="web\media\Imagen2_autobio.jpeg" alt="Fotografía personal" width="200">
+
+    		<h2>Información personal</h2>
+
+    		<p>
+        		Mi nombre es <strong>Rubén Hisraim León Martínez</strong>. Nací el
+        		<i>31 de marzo de 2006 en la ciudad de Mérida, en el estado de Yucatán, México.</i>
+        		Actualmente vivo en Tizimín y he estado aquí la mayor parte de mi vida.
+			Soy de descendencia de Tabasqueña por parte de mi Padre y Yucateca por parte de mi madre.
+			Tengo dos hermanas que estudian diseño digital y son 2 años mayores que yo, son gemelas.
+    		</p>
+
+    		<h2>Información académica</h2>
+
+    		<p>
+        		Estudie la mayoría de mi vida en el Instituto México de Tizimín hasta 6 de primaria, antes
+			de terminar mi educación en Crescencio Carrillo y Ancona, donde concluí secundaria y				preparatoria. Actualmente estoy estudiando mi licenciatura de Ingeniería de Software en la
+		|	UADY de Tizimín.
+    		</p>
+
+        	<h2>Mis pasatiempos</h2>
+
+    		<p>
+        		Me gusta jugar videojuegos y me llama mucho la atención el aspecto competitivo de los 				juegos de pelea, especialmente Super Smash Bros Ultimate.
+			Igual suelo dibujar en mi tiempo libre pero solo llego a bocetos ya que pintar no me gusta 			del todo.
+    		</p>
+
+    		<h2>Contactos</h2>
+
+    		<p>
+        		Correo estudiantil:<a href="a24216878@alumnos.uady.mx">a24216878@alumnos.uady.mx</a>
+    		</p>
+
+    		<h2>Sitios que uso regularmente</h2>
+
+    		<p>
+        		<a href="a24216878@alumnos.uady.mx">a24216878@alumnos.uady.mx</a>
+    		</p>
+
+    		<p>
+        		<a href="https://www.youtube.com" target="_blank">Youtube</a>
+			<a href="https://www.gamebanana.com" target="_blank">Gamebanana</a>
+    		</p>
+
+		<p>
+        		<a href="index.html">Ir a la página principal</a>
+    		</p>
+
+	</body>
+
+</html>

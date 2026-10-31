@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Rubén Hisraim León Martínez">
+		<link rel="stylesheet" href="css\estilos.css">
+	</head>
+<body>
+<form onsubmit="return validarFormulario()">
+    <fieldset>
+        <legend>Contacto</legend>
+        Nombre: <input id="nombre" name="nombre" type="text">
+        Apellidos: <input id="apellidos" name="apellidos" type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>Género</legend>
+        <input type="radio" name="radio1" id="radio1"> Masculino
+        <input type="radio" name="radio1" id="radio2"> Femenino
+    </fieldset>
+
+    <fieldset>
+        <legend>Intereses</legend>
+        <input type="checkbox" name="deporte" value="Deportes"> Hacer Deporte
+        <input type="checkbox" name="tv" value="Televisión"> Ver Televisión
+        <input type="checkbox" name="ejercicio" value="Ejercicio"> Hacer Ejercicio
+    </fieldset>
+
+    <fieldset>
+        <legend>Nivel De Estudio</legend>
+        <select name="select">
+            <option value="value1">Secundaria</option>
+            <option value="value2">Bachillerato</option>
+            <option value="value3">Licenciatura</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Navegador</legend>
+        <label for="navegador">Elige un navegador:</label>
+        <input list="navegadores" id="navegador" name="navegador">
+
+        <datalist id="navegadores">
+            <option value="Google Chrome">
+            <option value="Mozilla Firefox">
+            <option value="Microsoft Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+    </fieldset>
+	<br><br>
+        <button type="submit">Enviar</button>
+	
+</form>
+	<script src="script.js"></script>
+</body>
+</html>

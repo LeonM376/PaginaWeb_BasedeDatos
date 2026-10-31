@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" href="css\estilos.css">
+		<meta charset="UTF-8">
+		<meta name="author" content="Rubén Hisraim León Martínez">
+		<title>Página Principal</title>
+	</head>
+	<body>
+		<p><h1>Bienvenidos a mi página principal</h1></p>
+		<p>Bienvenidos a mi pagina principal en donde doy la bienvenida</p>
+		<div id="reloj" style="font-weight: bold; color: #263238; margin-bottom: 20px;"></div>
+		<p>...</p>
+		<p>Eso es todo lo que tengo que decir hasta el momento...perdon</p>
+		<nav>
+
+            <p>
+                <a href="autobiografia.html">
+                    <button type="button">
+                         Autobiografía
+                    </button>
+                </a>
+            </p>
+
+            <p>
+                <a href="galeria.html">
+                    <button type="button">
+                        Galería de Amigos
+                    </button>
+                </a>
+            </p>
+
+            <p>
+                <a href="contacto.html">
+                    <button type="button">
+                        Contacto
+                    </button>
+                </a>
+            </p>
+
+            <p>
+                <a href="interaccionesJavaScript.html">
+                    <button type="button">
+                        InteraccionesJS
+                    </button>
+                </a>
+            </p>
+
+	    <p>
+    		<a href="usuarios.php">
+        	    <button type="button">
+            		Gestión de Usuarios
+        	    </button>
+    		</a>
+	    </p>
+
+        	</nav>
+		<figure><img src="media\Imagen1_gatitos.jpeg" alt="no cargo la imagen" width="500" height="300">
+		<figcaption>Imagen local</figcaption>
+		</figure>
+		<br>
+		<figure><img src="https://plantsvszombies.fandom.com/es/wiki/Plantas_contra_Zombis" alt="no cargo la imagen :[" width="500" height="300">
+		<figcaption>Imagen externa</figcaption>
+		</figure>
+		<script src="script.js"></script>
+	</body>
+</html>
